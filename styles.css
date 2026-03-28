@@ -37,3 +37,27 @@ nav a{
   font-weight: 300;
   text-decoration: none;
 }
+section{
+  padding:20px 100px;
+  background-color: rgb(241, 41, 6);
+}
+section .hero-text1{
+  background-color: azure;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 60px 100px;
+}
+ .hero-text1{
+  font-size: 400px;
+  text-transform: uppercase;
+  line-height: 300px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.hero-text1 .video{
+  height: 200px;
+  width: 500px;
+  background-color: black;
+  border-radius: 50px;
+}
