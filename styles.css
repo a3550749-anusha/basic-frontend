@@ -15,21 +15,23 @@ main{
   background-color: #AEFF00;
 }
 nav{
-  padding: 60px 100px;
+  padding: 50px 100px;
   width: 100%;
   display:flex;
   align-items:center;
   justify-content: space-between;
 }
 nav .part2{
-  display: flex;
-  align-items:center;
+  display: flexroot;
+  align-items:right;
   justify-content:right;
   gap: 80px;
 }
 nav h2{
   font-size: 63px;
   font-weight: 500px;
+  display: flex;
+  justify-content: space-evenly;
 }
 nav a{
   font-size: 35px;
@@ -39,7 +41,7 @@ nav a{
 }
 section{
   padding:20px 100px;
-  background-color: rgb(241, 41, 6);
+  /*background-color: rgb(241, 41, 6);*/
 }
 section .hero-text1{
   background-color: azure;
@@ -47,17 +49,39 @@ section .hero-text1{
   align-items: flex-start;
   justify-content: space-around;
   padding: 60px 100px;
+  
 }
- .hero-text1{
-  font-size: 400px;
+ .hero-text1 h1{
+  font-size: 700px;
   text-transform: uppercase;
   line-height: 300px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   
 }
 .hero-text1 .video{
-  height: 200px;
-  width: 500px;
+  height: 300px;
+  width: 600px;
   background-color: black;
-  border-radius: 50px;
+  border-radius: 100px;
+  margin-top: 30px;
 }
+section .hero-tex2{
+  background-color: azure;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 60px 100px;
+}
+ .hero-text2 h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-weight: 900px;
+ }
+ .hero-text2 p{
+  font-size: 10px;
+  width: 500px;
+  /*text-transform: uppercase;*/
+  line-height: 40px;
+  /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+ }
